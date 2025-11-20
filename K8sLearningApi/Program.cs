@@ -3,7 +3,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add health check services
 builder.Services.AddHealthChecks();
 
+// Add Swagger services
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+
+// Enable Swagger middleware
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // Basic endpoint
 app.MapGet("/", () => "Hello World! K8s Learning API is running.");

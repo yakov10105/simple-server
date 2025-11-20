@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("K8sLearningApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6b836869d1f0857bf129d01d08fb771aa676ea5")]
 [assembly: System.Reflection.AssemblyProductAttribute("K8sLearningApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("K8sLearningApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

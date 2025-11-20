@@ -26,3 +26,11 @@ C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\refint\K8sLearningAp
 C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\K8sLearningApi.pdb
 C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\K8sLearningApi.genruntimeconfig.cache
 C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\ref\K8sLearningApi.dll
+C:\Users\Me\Desktop\server\K8sLearningApi\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Me\Desktop\server\K8sLearningApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Me\Desktop\server\K8sLearningApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Me\Desktop\server\K8sLearningApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\K8sLearningApi.csproj.AssemblyReference.cache
+C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\K8sLearningApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\K8sLearningApi.sourcelink.json
+C:\Users\Me\Desktop\server\K8sLearningApi\obj\Debug\net10.0\K8sLearn.3F9701F6.Up2Date
