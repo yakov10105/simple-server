@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: k8s-learning-api
-          image: 208534206/k8s-learning-api
+          image: 208534206/k8s-learning-api:v2
           ports:
             - containerPort: 8080
           env:
