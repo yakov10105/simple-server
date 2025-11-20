@@ -1,3 +1,5 @@
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add health check services
@@ -5,13 +7,20 @@ builder.Services.AddHealthChecks();
 
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "K8s Learning API", Version = "v1" });
+});
 
 var app = builder.Build();
 
 // Enable Swagger middleware
 app.UseSwagger();
-app.UseSwaggerUI();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "K8s Learning API V1");
+    c.DocumentTitle = "K8s Learning API";
+});
 
 // Basic endpoint
 app.MapGet("/", () => "Hello World! K8s Learning API is running.");
